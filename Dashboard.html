@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Neighborly</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      background-color: #eaf6fb;
+    }
+
+    header {
+      background-color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 20px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    header h1 {
+      font-size: 28px;
+      margin: 0;
+      color: #f06d9e;
+    }
+
+    header span {
+      font-size: 16px;
+      color: #444;
+    }
+
+    .container {
+      display: flex;
+      padding: 20px;
+    }
+
+    .sidebar {
+      width: 25%;
+      background-color: #c8e4f9;
+      border-radius: 8px;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .sidebar img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      margin-bottom: 10px;
+    }
+
+    .sidebar h2 {
+      margin: 10px 0;
+    }
+
+    .sidebar p {
+      margin: 5px 0;
+    }
+
+    .sidebar a {
+      display: inline-block;
+      margin-top: 10px;
+      color: #007bff;
+      text-decoration: none;
+    }
+
+    .main {
+      flex: 1;
+      margin-left: 20px;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+    }
+
+    .card {
+      background-color: #fff;
+      border-radius: 8px;
+      padding: 20px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+
+    .card img {
+      width: 100%;
+      border-radius: 8px;
+      margin-bottom: 10px;
+    }
+
+    .card h3 {
+      margin: 10px 0;
+      color: #444;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Neighborly</h1>
+    <span>Connect. Share. Thrive.</span>
+  </header>
+
+  <div class="container">
+    <div class="sidebar">
+      <img src="https://via.placeholder.com/100" alt="Profile Picture">
+      <h2>Welcome</h2>
+      <p>Name</p>
+      <p>Email Address</p>
+      <p>Bio</p>
+      <p>Contact Info</p>
+      <a href="#">Edit Profile</a>
+    </div>
+
+    <div class="main">
+      <div class="card">
+        <img src="https://via.placeholder.com/200" alt="Share your Skills">
+        <h3>Share your Skills</h3>
+      </div>
+      <div class="card">
+        <img src="https://via.placeholder.com/200" alt="Chit Chat">
+        <h3>Chit Chat</h3>
+      </div>
+      <div class="card">
+        <img src="https://via.placeholder.com/200" alt="What's Happening">
+        <h3>What's Happening</h3>
+      </div>
+      <div class="card">
+        <img src="https://via.placeholder.com/200" alt="Borrow or Share">
+        <h3>Borrow or Share</h3>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
